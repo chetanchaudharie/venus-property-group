@@ -1,0 +1,39 @@
+/* src/pages/Services.module.css */
+.heading {
+  color: #007bff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+  background-color: #07363c !important;
+  color: #fff !important;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer p,
+.footer small {
+  margin: 0;
+  color: #fff !important;
+}

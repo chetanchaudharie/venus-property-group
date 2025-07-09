@@ -1,0 +1,57 @@
+/* App.css or Home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Make sure sections are responsive and centered */
+section {
+  width: 100%;
+}
+
+.container-fluid {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #eaf7f9;
+  padding: 80px 20px;
+}
+
+/* Input styling */
+.hero-section .input-group input {
+  height: 50px;
+  font-size: 16px;
+}
+
+.hero-section .input-group button {
+  height: 50px;
+  font-size: 16px;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h5,
+.card p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #07363c !important;
+  color: white;
+}
