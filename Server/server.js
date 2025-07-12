@@ -9,6 +9,14 @@ dotenv.config();
 connectDB();
 
 const app = express();
+const allowedOrigins = [
+  'https://venus-property-group.vercel.app',
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
 
 app.use(cors());
 app.use(express.json()); 
